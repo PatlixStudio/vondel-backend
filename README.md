@@ -42,6 +42,9 @@ $ npm run start:dev
 
 # production mode
 $ npm run start:prod
+
+# if wsl have error permission error
+$ sudo chown -R $(whoami):$(whoami) /home/{{username}}/Development/vondel/vondel-backend
 ```
 
 ## Run tests
